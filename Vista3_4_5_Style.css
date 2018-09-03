@@ -1,0 +1,95 @@
+header{
+    width: 100%;
+    height: 260px;
+    /*background-color: aqua;*/
+}
+
+#title {
+    width: 50%;
+    height: 260px;
+    border: 1px solid black;
+    background-color: blueviolet;
+}
+
+#ContainerHeader{
+    width: 98%;
+    height: 300px;
+    border: 2px solid chartreuse;
+    position: fixed;
+}
+
+#ContainerImage {
+    width: 160px;
+    height: 190px;    
+    background-image: url("./LogoSecurityQR.png");
+    background-size: 150px 180px;
+    background-repeat: no-repeat;
+    margin-left: 35px;
+    margin-top: 49px;
+}
+
+#lista {
+    width: 10%;
+    height: 470px;    
+    background-color: #009fdd;
+    color: white;
+    border: 1px solid slateblue;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#lista a{
+    color: white;
+    font-size: 1.5em;
+}
+
+#containerRight {
+    width: 70%;
+    height: 470px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    margin-left: 25%;
+    margin-top: -25%;
+}
+
+#containerRight span center{
+    width: 300px;
+    height: 50px;
+    margin-left: 450px;
+    background-color: crimson;
+}
+#formValidation {
+    width: 800px;
+    height: 300px;
+    margin-left: 450px;
+    margin-top: 40px;
+}
+
+#formValidation label{
+    margin-left: 95px;
+    font-size: 1.5em;
+}
+
+#formValidation input{
+    margin-left: 55px;
+    width: 180px;
+    height: 30px;
+    border: black;
+    box-shadow: #009fdd;
+}
+
+#formValidation button{
+    margin-left: 95px;
+    width: 100px;
+    height: 45px;
+    border: black;
+    background-color: #009fdd;
+    color: white;
+    border-radius: 15px;
+    font-size: 1em;
+}
+
+#formValidation label{    
+    display: inline-block;
+    width: 80px;
+}
